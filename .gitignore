@@ -1,0 +1,43 @@
+# Private or generated data
+data/
+private/
+artifacts/
+output/
+output_*/
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.sav
+*.dta
+*.pkl
+*.pickle
+*.joblib
+
+# Reports and exports that may contain derived information
+*.html
+*.pdf
+*.ppt
+*.pptx
+
+# Local environments and caches
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+~$*
+.idea/
+.vscode/
+
